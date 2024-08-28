@@ -1,0 +1,13 @@
+prefix=C:/Users/SuriyanshuSatapathy/Documents/Personal/AWS-Bedrock-Experiment/venv/Library
+exec_prefix=C:/Users/SuriyanshuSatapathy/Documents/Personal/AWS-Bedrock-Experiment/venv/Library
+libdir=C:/Users/SuriyanshuSatapathy/Documents/Personal/AWS-Bedrock-Experiment/venv/Library/lib
+sharedlibdir=C:/Users/SuriyanshuSatapathy/Documents/Personal/AWS-Bedrock-Experiment/venv/Library/lib
+includedir=C:/Users/SuriyanshuSatapathy/Documents/Personal/AWS-Bedrock-Experiment/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
